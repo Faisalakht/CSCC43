@@ -1,0 +1,9 @@
+for $a in doc("matches.xml")/matches/match[1]
+let $counter := 0
+let $x := for $b in doc("teams.xml")/teams/team
+           let $y := for $c in doc("players.xml")/players/player
+		     where $b/player/@pid = $c/@pid and $c/@married = "yes"
+		     return sum ( for 
+          where $a/teams/team/@tid = $b/@tid
+	  return $y
+return $x

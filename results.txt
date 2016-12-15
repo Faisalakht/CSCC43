@@ -1,0 +1,62 @@
+Checking Assignment 3 Solutions
+
+======= Generating query output =======
+
+--- Query q1 ---
+
+Raw results:
+"Tom Brown",
+"Conrad Black",
+"Harry Johnson",
+"John Smith",
+"Jim Hardwick",
+"Oliver Cromwell"
+
+--- Query q2 ---
+
+Raw results:
+"John Smith", "Oliver Cromwell"
+
+--- Query q3 ---
+
+Raw results:
+"Guatemala City Guatemala", "Singapore Singapore", "Singapore Singapore"
+
+--- Query q4 ---
+
+Raw results:
+"5", "6", "9", "10", "11", "15", "16"
+
+--- Query q5 ---
+
+Raw results:
+<name>Kings</name>, <name>Lakers</name>
+
+--- Query q6 ---
+
+Raw results:
+"John Smith 57000 Leafs", "Alice Herman 1000000 Kings"
+
+--- Query q7 ---
+
+Raw results:
+"MID= 1 Number of players married = 3",
+"MID= 2 Number of players married = 4",
+"MID= 3 Number of players married = 5",
+"MID= 4 Number of players married = 4",
+"MID= 5 Number of players married = 4",
+"MID= 6 Number of players married = 2",
+"MID= 7 Number of players married = 5",
+"MID= 8 Number of players married = 3",
+"MID= 9 Number of players married = 3",
+"MID= 10 Number of players married = 3",
+"MID= 11 Number of players married = 4",
+"MID= 12 Number of players married = 2",
+"MID= 13 Number of players married = 4",
+"MID= 14 Number of players married = 5",
+"MID= 15 Number of players married = 3"
+
+--- Query q8 ---
+
+Raw results:
+"1", "", "", "", "5", "6", "", "", "", "10", "11", "", "13", "", ""

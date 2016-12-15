@@ -1,0 +1,17 @@
+<names>
+{for $b in doc("players.xml")/players/player
+where $b/nationality/count(country) > 1
+<names>
+{for $b in doc("players.xml")/players/player
+where $b/nationality/count(country) > 1
+return <Name>
+        <First-Name> {$b/@fname/string()}</First-Name>
+        <Last-Name>{$b/@lname/string()}</Last-Name>
+        </Name>
+}
+</names>return <Name>
+	<First-Name> {$b/@fname/string()}</First-Name> 
+	<Last-Name>{$b/@lname/string()}</Last-Name>
+	</Name>
+}
+</names>

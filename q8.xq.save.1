@@ -1,0 +1,14 @@
+for $a in doc("matches.xml")/matches/match[1]
+let $loser := if (number($a/teams/team[1]/score) > number($a/teams/team[2]))
+then $a/teams/team[2]
+else $a/teams/team[1]
+
+let $winner := if (number($a/teams/team[1]/score)> number($a/teams/team[2]))
+then $a/teams/team[1]
+else $a/teams/team[2]
+return 
+	for $b in doc("teams.xml")/teams/team
+	let $x := $b[@tid = $winner/@tid]
+	let $y := $b[@tid = $loser/@tid]
+	if (num
+

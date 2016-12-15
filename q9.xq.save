@@ -1,0 +1,6 @@
+for $a in doc("matches.xml")/matches/match
+let $x := for $b in doc("teams.xml")/teams/team
+where $a/@year = 2014
+                
+return count($x)
+

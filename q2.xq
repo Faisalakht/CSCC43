@@ -1,0 +1,7 @@
+distinct-values(for $b in doc("players.xml")/players/player
+let $c := doc("players.xml")/players
+let $s := $b/@fname
+let $t := $b/@lname
+where count($c/player[@fname = $s]) >1 and count ($c/player[@lname=$t]) >1 
+return concat($b/@fname/string()," ",$b/@lname/string()))
+
